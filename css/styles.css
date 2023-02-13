@@ -257,21 +257,21 @@ letter-spacing:var(--letter-spacing);
 color:var(--secondary-text-color);
   }
 
-  /* .about-icon-box{
-
-    height: 112px;
-    box-sizing: border-box;
-  width: 264px;
-  background-color:var(--secondary-bg);
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .about-icon-box{
+display: none;
+/* height: 112px;
+box-sizing: border-box;
+width: 264px;
+background-color:var(--secondary-bg);
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center; */
   
   }
   .about-icon{
-  height: 64px;
-  width: 64px;
+  /* height: 64px;
+  width: 64px; */
   
   } */
   /* ---------------GENERAL------------- */
@@ -961,10 +961,20 @@ background-color:var(--secondary-accent-color);
   .about-caption{
     text-align: left;
   }
+ 
+ }
+
   }
 
   @media screen and (min-width:1200px) {
     .container{
      max-width: 1160px;  
     }
+    .about {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+  
+
+  
     }
