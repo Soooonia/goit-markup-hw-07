@@ -40,6 +40,8 @@
   
   img {
     display: block;
+    min-width: 100%;
+    height: auto;
   }
   
   .list {
@@ -236,7 +238,7 @@
    margin-right: 0;
   }
   .about-item {
-  
+  width: 100%;
   }
   .about-caption {
     font-weight: 500;
