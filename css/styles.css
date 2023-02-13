@@ -259,15 +259,15 @@ color:var(--secondary-text-color);
 
   .about-icon-box{
 display: none;
-/* height: 112px;
+ /* height: 112px;
 box-sizing: border-box;
 width: 264px;
 background-color:var(--secondary-bg);
 border-radius: 4px;
 display: flex;
 justify-content: center;
-align-items: center; */
-  
+align-items: center; 
+    */
   }
   .about-icon{
   /* height: 64px;
@@ -961,7 +961,9 @@ background-color:var(--secondary-accent-color);
   .about-caption{
     text-align: left;
   }
- 
+ .about-icon-box{
+  display: none;
+ }
  }
 
   }
@@ -974,7 +976,21 @@ background-color:var(--secondary-accent-color);
       padding-top: 120px;
       padding-bottom: 120px;
     }
+.about-item{
+  width: calc((100% - 72px) / 4);
+}
   
+.about-caption{
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.about-subtitle{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
   
     }
