@@ -225,7 +225,7 @@
   }
   .about-list {
      /* display: flex; */
-    gap: 24px;
+    gap: 72px;
     flex-wrap: nowrap;
     margin: 0;
    padding: 0;
@@ -946,3 +946,15 @@ background-color:var(--secondary-accent-color);
  max-width: 428px;  
 }
 }
+
+@media screen and (min-width:768px) {
+  .container{
+   max-width: 768px;  
+  }
+  }
+
+  @media screen and (min-width:1200px) {
+    .container{
+     max-width: 1160px;  
+    }
+    }
