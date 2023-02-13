@@ -958,6 +958,9 @@ background-color:var(--secondary-accent-color);
     column-gap: 24px;
   row-gap: 72px;
   }
+  .about-caption{
+    text-align: left;
+  }
   }
 
   @media screen and (min-width:1200px) {
