@@ -991,6 +991,20 @@ background-color:var(--secondary-accent-color);
   font-size: 16px;
   line-height: 1.5;
 }
-
+.about-icon-box{
+  display: block;
+  height: 112px;
+box-sizing: border-box;
+width: 264px;
+background-color:var(--secondary-bg);
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+  .about-icon{
+ height: 64px;
+  width: 64px; 
+}
   
     }
