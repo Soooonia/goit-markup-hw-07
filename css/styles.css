@@ -944,15 +944,19 @@ background-color:var(--secondary-accent-color);
 @media screen and (min-width:480px) {
 .container{
  max-width: 428px;  
+ 
 }
 }
-
 @media screen and (min-width:768px) {
   .container{
    max-width: 768px;  
   }
   .about-item{
-    width: calc((100%-24px)/2)  ;
+    width: calc((100%  - 24px) / 2)  ;
+  }
+  .about-list{
+    column-gap: 24px;
+  row-gap: 72px;
   }
   }
 
