@@ -257,7 +257,8 @@
     color: var(----secondary-text-color);
   }
 
-  .about-icon-box{
+  /* .about-icon-box{
+
     height: 112px;
     box-sizing: border-box;
   width: 264px;
@@ -272,7 +273,7 @@
   height: 64px;
   width: 64px;
   
-  }
+  } */
   /* ---------------GENERAL------------- */
   .general {
     padding-bottom: 120px;
