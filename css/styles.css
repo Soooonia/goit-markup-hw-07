@@ -133,8 +133,23 @@
   .list {
   }
   .menu-item {
+    
   }
   .header-link {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 40px;
+  }
+
+  .contact{
+    color: var(--secondary-accent-color);
+  }
+
+  
   }
   .link {
   }
@@ -143,12 +158,45 @@
   .menu-address {
   }
   .menu-auth-nav {
+   
   }
   .menu-auth-nav-item {
+    margin-bottom: 40px;
+  }
+.mob-soc-item{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+  .mob-soc-item{
+    width: 40px;
+    height: 40px;
+  }
+  .mob-soc-link{
+  }
+
+  .menu-auth-nav-item{
+  
+  }
+
+  .menu-auth-nav-item:not(:first-child){
+    margin-bottom: 48px;
   }
   .header-mail {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.20;
+letter-spacing: 0.02em;
+color: #434455;
   }
   .header-tel {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color:var(--primary-accent-color);
+  }
   }
   /* ---------------------HERO--------------- */
   .hero {
