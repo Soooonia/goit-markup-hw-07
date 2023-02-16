@@ -1022,7 +1022,9 @@ background-color:var(--secondary-accent-color);
   }
 
 /* HEEEAAADDEERRRRRRRRRRRR */
-
+.menu-btn{
+  display: none;
+}
   .header-link.current {
     color: var(--secondary-accent-color);
     position: relative;
@@ -1032,6 +1034,7 @@ background-color:var(--secondary-accent-color);
       content: '';
       position: absolute;
       left: 0;
+      
       bottom: 0 ;
       width: 100%;
       height: 4px;
@@ -1041,6 +1044,7 @@ background-color:var(--secondary-accent-color);
   .header-list{
     display: flex;
     gap: 40px;
+    
   }
   .header-navigation{
     display: flex;
@@ -1070,25 +1074,36 @@ background-color:var(--secondary-accent-color);
   }
   .auth-nav {
     display: flex;
+    margin-left: auto;
   }
   .auth-nav-item {
     margin-right: 40px;
   }
-  
+  .address{
+    margin-left: auto;
+  }
+  .auth-nav-item{
+
+  }
+  .auth-nav{
+    display: flex;
+    flex-wrap: wrap;
+    ;
+  }
   .header-mail {
     font-weight: 400;
-    font-size: 16px;
-    line-height: var(--line-height);
-    letter-spacing: var(--letter-spacing);
-    color: var(--most-text-color);
+    font-size: 12px;
+    line-height:1.33;
+    letter-spacing:0.04;
+    color:var(--secondary-text-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
   }
   .header-tel {
     font-weight: 400;
-    font-size: 16px;
-    line-height: var(--line-height);
-    letter-spacing: var(--letter-spacing);
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing:0.04;
     color: var(----secondary-text-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -1098,6 +1113,10 @@ background-color:var(--secondary-accent-color);
   .header-tel:focus {
     color: var(--secondary-accent-color);
   }
+
+.menu-btn{
+  display: none;
+}
   
 /* ///////////HEEEERRRROROORRORRR/////////////// */
 
@@ -1125,6 +1144,19 @@ background-color:var(--secondary-accent-color);
     background-image: url(../images/people-office-2x.jpg);
   }
 }
+
+/* ///////Headeeerrrrrr */
+
+.auth-nav {
+  display: flex;
+}
+.auth-nav-item {
+  margin-right: 40px;
+}
+
+
+}
+
   /* /////////ABOUUUUUUUUUUUTTTTTTTT//////////// */
   .about-item{
     width: calc((100%  - 24px) / 2)  ;
@@ -1168,7 +1200,7 @@ background-color:var(--secondary-accent-color);
   column-gap: 24px;
     row-gap: 72px;
  }
-}
+
  /* .container.mini-container{
   min-width: 480px;
  } */
@@ -1176,6 +1208,22 @@ background-color:var(--secondary-accent-color);
   @media screen and (min-width:1200px) {
     .container{
      max-width: 1160px;  
+    }
+/* headerrrrrrr */
+.menu-btn{
+  display: none;
+}
+    .header-mail{
+      font-size: 16px;
+        line-height: var(--line-height);
+        letter-spacing: var(--letter-spacing);
+        color:var(--secondary-text-color);
+    }
+    .header-tel {
+      font-size: 16px;
+        line-height: var(--line-height);
+        letter-spacing: var(--letter-spacing);
+        color: var(----secondary-text-color);
     }
 
 /* ///////////HEEEERRRROROORRORRR/////////////// */
