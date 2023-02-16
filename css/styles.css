@@ -286,24 +286,15 @@ align-items: center;
   
   } */
   /* ---------------GENERAL------------- */
-  .general {
-    padding-bottom: 120px;
-  }
-  .general-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-transform: capitalize;
-    letter-spacing: var(--letter-spacing);
-    margin-bottom: 72px;
-    text-align: center;
-  } 
+
   .general-list{
-    display: flex;
-    gap: 24px;
+    display: none;
+  
   }
   
-  .general-item{
-    width: calc((100%-48px)/3);
+  .general{
+
+display: none;
   }
   /* ------------------ TEAM-------------------- */
   .team{
@@ -1123,7 +1114,7 @@ align-items: center;
 }
 
   .container.mini-container{
-width: 1158px;
+max-width: 1158px;
 
   }
     /* team */
@@ -1139,3 +1130,28 @@ width: 1158px;
       gap: 24px;
       flex-wrap: nowrap;
     }
+
+    /* GENNNNEEEEERRRRAAAAAAALLLLLLLL */
+
+    .general {
+      padding-bottom: 120px;
+  display: block;
+    }
+
+    .general-title {
+      font-size: 36px;
+      line-height: 1.11;
+      text-transform: capitalize;
+      letter-spacing: var(--letter-spacing);
+      margin-bottom: 72px;
+      text-align: center;
+  }
+  .general-list{
+    display: flex;
+    gap: 24px;
+
+}
+.general-item{
+  width: calc((100%-48px)/3);
+}
+}
