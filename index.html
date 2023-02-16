@@ -31,7 +31,7 @@ referrerpolicy="no-referrer" />
 </address>
 <!-- mobmenubtn -->
 <button type="button"
-class="menu-btn">
+class="menu-btn" data-modal-open>
 <svg class="icon-header-mob" width="32" height="22">
     <use href="./images/symbol-defs.svg#icon-menu-hamburger"></use>
 </svg>
@@ -39,9 +39,9 @@ class="menu-btn">
     </div>
     <!-- MMMMMMMMEENUUUU -->
 
-    <div class="mob-menu">
+    <div class="mob-menu" data-modal>
         <div>
-        <button type="button" class="modal-close">
+        <button type="button" class="modal-close" data-modal-close>
             <svg class="modal-icon">
                 <use href="./images/symbol-defs.svg#icon-close-black"></use>
             </svg>
@@ -491,6 +491,7 @@ class="menu-btn">
     </div>
     
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
 
