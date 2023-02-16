@@ -161,26 +161,34 @@
    
   }
   .menu-auth-nav-item {
-    margin-bottom: 40px;
+  
   }
-.mob-soc-item{
+.mob-soc-list{
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  gap: 56px;
 }
   .mob-soc-item{
     width: 40px;
     height: 40px;
   }
   .mob-soc-link{
+    width: 100%;
+  height: 100%;
+  background-color:var(--primary-accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
   }
-
+.menu-auth-nav{
+  margin-bottom: 284px;
+}
   .menu-auth-nav-item{
   
   }
 
-  .menu-auth-nav-item:not(:first-child){
-    margin-bottom: 48px;
+  .menu-auth-nav-item:not(:last-child){
+    margin-bottom: 40px;
   }
   .header-mail {
     font-weight: 500;
