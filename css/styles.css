@@ -1272,7 +1272,7 @@ background-color:var(--secondary-accent-color);
 
 .hero{
   background-image:var(--hero-gra),
-  url(../images/people-office\ .jpg);
+  url(../images/people-ofice-tab.jpg);
   max-width: 768px;
 }
 
@@ -1280,7 +1280,7 @@ background-color:var(--secondary-accent-color);
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/people-office-2x.jpg);
+    background-image: url(../images/people-ofice-tab-2x.jpg);
   }
 }
 
