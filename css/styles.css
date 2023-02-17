@@ -150,7 +150,7 @@
   }
 
   
-  }
+  
   .link {
   }
   .current {
@@ -204,7 +204,7 @@ color: #434455;
     text-transform: capitalize;
     color:var(--primary-accent-color);
   }
-  }
+  
   /* ---------------------HERO--------------- */
   .hero {
     background: var(--dark-background-color);
@@ -215,9 +215,8 @@ color: #434455;
     padding-bottom: 112px;
     text-align: center;
     margin: 0 auto;
-    block-size: cover;
-    min-width: 468px;
-
+    background-size: cover;
+max-width: 468px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -350,6 +349,7 @@ display: none;
     padding-top: 96px;
     padding-bottom: 128px;
   }
+
   .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -1111,6 +1111,7 @@ background-color:var(--secondary-accent-color);
  
 }
 
+
 }
 
 /* .hero{
@@ -1272,6 +1273,7 @@ background-color:var(--secondary-accent-color);
 .hero{
   background-image:var(--hero-gra),
   url(../images/people-office\ .jpg);
+  max-width: 768px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -1444,6 +1446,7 @@ background-color:var(--secondary-accent-color);
 .hero{
   background-image:var(--hero-gra),
   url(../images/people-office\ .jpg);
+  max-width: 1440px;
 }
 
 /* /////////ABOUUUUUUUUUUUTTTTTTTT////////////     */
