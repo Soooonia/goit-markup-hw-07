@@ -112,6 +112,15 @@
   align-items: flex-start;
   }
 
+  .mob-menu-container{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   /* MEEEEENIIII */
 .container-menu{
   
@@ -119,13 +128,18 @@
 .mob-menu{
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 1;
   width: 100%;
   height: 100vh;
  background-color:#FFFFFF;
- padding-top: 24px;
- padding-bottom: 40px;
 
+
+}
+.mob-help{
+  display: flex;
+  flex-direction: column;
+  
 }
   
   .menu-list {
@@ -1187,7 +1201,7 @@ background-color:var(--secondary-accent-color);
   .header-navigation{
     display: flex;
     align-items: center;
-    margin-right: auto;
+
   }
   .header-container{
     display: flex;
@@ -1212,10 +1226,11 @@ background-color:var(--secondary-accent-color);
   }
   .auth-nav {
     display: flex;
+    flex-direction: column;
     margin-left: auto;
   }
   .auth-nav-item {
-    margin-right: 40px;
+    margin-right: 0;
   }
   .address{
     margin-left: auto;
