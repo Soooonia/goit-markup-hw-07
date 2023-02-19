@@ -1172,6 +1172,9 @@ padding-top: 0;
 .header-logo {
   margin-right: 76px;
 }
+.mob-menu{
+  display: none;
+}
 .menu-btn{
   display: none;
 }
@@ -1431,7 +1434,11 @@ padding-top: 0;
      max-width: 1160px;  
     }
 /* headerrrrrrr */
+
 .menu-btn{
+  display: none;
+}
+.mob-menu{
   display: none;
 }
     .header-mail{
