@@ -160,6 +160,7 @@
 .mob-soc-list{
   display: flex;
   gap: 56px;
+  margin-top: 40px;
 }
   .mob-soc-item{
     width: 40px;
@@ -175,6 +176,7 @@
   border-radius: 50%;
   }
 .menu-auth-nav{
+  
 }
   .menu-auth-nav-item{
   
@@ -199,6 +201,20 @@ color: #434455;
     color:var(--primary-accent-color);
   }
   
+.menu-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+  .container.container-men{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+    height: 100%;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+  }
   /* ---------------------HERO--------------- */
   .hero {
     background: var(--dark-background-color);
@@ -213,13 +229,13 @@ color: #434455;
 max-width: 468px;
   }
 
-  @media (min-device-pixel-ratio: 2),
+  /* @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
     background-image: url(../images/people-ofice-mob-2x.jpg);
-  }
-}
+  } */
+
   .hero-title {
     font-weight: 700;
     font-size: 36px;
@@ -1292,13 +1308,13 @@ padding-top: 0;
   max-width: 768px;
 }
 
-@media (min-device-pixel-ratio: 2),
+/* @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
     background-image: url(../images/people-ofice-tab-2x.jpg);
   }
-}
+} */
 
 /* ///////Headeeerrrrrr */
 
@@ -1460,7 +1476,7 @@ padding-top: 0;
       margin-left: auto;
     }
 
-    }
+    
 /* ///////////HEEEERRRROROORRORRR/////////////// */
 .hero{
   padding-top: 188px;
