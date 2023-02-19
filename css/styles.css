@@ -40,7 +40,7 @@
   
   img {
     display: block;
-    min-width: 100%;
+    width: 100%;
     height: auto;
   }
   
@@ -75,7 +75,6 @@
     line-height: 1.33;
     letter-spacing: 0.03em;
     color: var(--primary-accent-color);
-    margin-right: 76px;
   }
   .header-span {
     color: var(--most-text-color);
@@ -92,7 +91,6 @@
 
   /* menu-btn */
   .header-logo{
-    margin-right: 76px;   
   }
   .menu-btn {
     width: 32px;
@@ -109,7 +107,7 @@
 
   .header-container{
     display: flex;
-  align-items: flex-start;
+  justify-content: space-between;
   }
 
   .mob-menu-container{
@@ -340,6 +338,11 @@ align-items: center;
 display: none;
   }
   /* ------------------ TEAM-------------------- */
+  
+  .container.mini-container{
+    max-width: 294px;
+  }
+  
   .team{
     background: var(--light-background-color);
     padding-top: 96px;
@@ -490,6 +493,7 @@ margin-bottom: 72px;
   }
 
   .footer-text {
+    margin: 0 auto;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
@@ -500,7 +504,7 @@ margin-bottom: 72px;
   }
 
   .footer-content{
-    max-width: 264px;
+    max-width: 398px;
   }
 .footer .footer-link{
   max-width: 120px;
@@ -593,7 +597,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-input{
   outline: transparent;
-  min-width: 100%;
+  width: 300px;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -1102,13 +1106,18 @@ background-color:var(--secondary-accent-color);
 } */ */
  /* MMMMMEEEEDDDIIIIAAAAAAAAA 480 */
 @media screen and (min-width:480px) {
-.container{
- max-width: 428px;  
- 
+  .container{
+  width:428px;  
+  }
+/* Footerrrrrrrrrr */
+.footer-input{
+width: 398px;
+}
+
 }
 
 
-}
+
 
 /* .hero{
   background-image:var(--hero-gra),
@@ -1156,6 +1165,13 @@ background-color:var(--secondary-accent-color);
   }
 
 /* HEEEAAADDEERRRRRRRRRRRR */
+.header{
+padding-top: 0;
+      padding-bottom: 0;
+}
+.header-logo {
+  margin-right: 76px;
+}
 .menu-btn{
   display: none;
 }
@@ -1287,7 +1303,7 @@ background-color:var(--secondary-accent-color);
   display: flex;
 }
 .auth-nav-item {
-  margin-right: 40px;
+  
 }
 
 
