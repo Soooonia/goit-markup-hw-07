@@ -1446,7 +1446,14 @@ padding-top: 0;
         letter-spacing: var(--letter-spacing);
         color: var(----secondary-text-color);
     }
+    .auth-nav {
+   
+      flex-direction:row;
+      gap: 40px;
+      margin-left: auto;
+    }
 
+    }
 /* ///////////HEEEERRRROROORRORRR/////////////// */
 .hero{
   padding-top: 188px;
