@@ -1447,7 +1447,7 @@ padding-top: 0;
   padding-bottom: 188px;
   max-width: 1440px;
   background-image:var(--hero-gra),
-  url(../images/people-office\.jpg);
+  url(../images/people-office.jpg);
 }
 
 @media (min-device-pixel-ratio: 2),
