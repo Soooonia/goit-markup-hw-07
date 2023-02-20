@@ -1067,21 +1067,7 @@ fill: transparent;
     background-size: cover;
   background-position: center;
   }
-/* .hero{
-  background: var(--gradient-bg), url(../images/people-ofice-tab.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 480px),
-screen and (min-resolution: 192dpi) and (max-width: 480px),
-screen and (min-resolution: 2dppx) and (max-width: 480px) {
-    .hero {
-        background-image:var(--gradient-bg), url(../images/people-office-2x.jpg) ;
 
-    }
-} (отр */
- 
-/* Footerrrrrrrrrr */
 
 .modal {
 min-height: 576px;
@@ -1095,17 +1081,7 @@ width: 392px;
 
 
 
-/* .hero{
-  background-image:var(--hero-gra),
-  url(../images/people-ofice-tab.jpg);
-}
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(../images/people-ofice-tab-2x.jpg);
-  } */
 
 
 /* /* MMMMMEEEEDDDIIIIAAAAAAAAA 768 */
@@ -1361,7 +1337,7 @@ padding-top: 0;
 .footer-bas{
   display: flex;
   align-items: baseline;
-  /* gap: 24px; */
+  gap: 24px;
 }
 
 .footer-group{
@@ -1598,4 +1574,6 @@ max-width: 1158px;
       .footer-input-container {
         flex-wrap: nowrap;
     }
+    .footer-bas{
+      gap:0;
   }
