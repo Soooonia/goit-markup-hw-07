@@ -150,6 +150,7 @@
   .current {
   }
   .menu-address {
+    font-style: normal;
   }
   .menu-auth-nav {
    
@@ -864,7 +865,7 @@ top: 50%;
 transform: translate(-50%,-50%);
 /* width: 90%;
 height: 90%; */
-width: 392px;
+width: calc(100%-30px);
 min-height: 576px;
   background: #FCFCFC;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1076,15 +1077,13 @@ screen and (min-resolution: 2dppx) and (max-width: 480px) {
 } (отр */
  
 /* Footerrrrrrrrrr */
-.footer-input{
-width: 398px;
-}
 
 .modal {
-height: 576px;
+min-height: 576px;
 width: 392px;
 
 }
+
 
 }
 
