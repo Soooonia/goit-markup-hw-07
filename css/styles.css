@@ -1058,7 +1058,9 @@ fill: transparent;
     font-size: 36px;
   }
   .hero {
-    background-image:var(--gradient-bg),url(../images/people-ofice-tab.jpg);
+    background-image:var(--gradient-bg),url(../images/people-ofice-tab.jpg) no-repeat;
+    background-size: cover;
+  background-position: center;
   }
 /* .hero{
   background: var(--gradient-bg), url(../images/people-ofice-tab.jpg) no-repeat;
