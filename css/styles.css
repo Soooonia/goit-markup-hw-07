@@ -1058,7 +1058,6 @@ fill: transparent;
     font-size: 36px;
   }
   .hero {
-    background-image:var(--gradient-bg),url(../images/people-ofice-tab.jpg) no-repeat;
     background-size: cover;
   background-position: center;
   }
@@ -1262,7 +1261,7 @@ padding-top: 0;
 .hero{
   background-image:var(--hero-gra),
   url(../images/people-office\ .jpg);
-  /* max-width: 768px; */
+  max-width: 768px;
 }
 
 /* @media (min-device-pixel-ratio: 2),
