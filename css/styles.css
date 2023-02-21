@@ -1292,6 +1292,9 @@ padding-top: 0;
  max-width: 582px;
 }
 
+.helping{
+  padding: 0 108px;
+}
 
 /* TEAM
  */
@@ -1351,7 +1354,10 @@ padding-top: 0;
   min-width: 480px;
  } */
 
-
+.footer-text-secondary{
+  margin-left: 0;
+  display: inline-block;
+}
 /* MODAL */
 
   .modal{
@@ -1494,6 +1500,10 @@ align-items: center;
 max-width: 1158px;
 
   }
+
+  .helping{
+    padding: 0 0;
+  }
     /* team */
 .team{
   padding-top: 120px;
@@ -1542,7 +1552,9 @@ max-width: 1158px;
   max-width: 1158px;
   
     }
-
+.fotter-content-first{
+  margin-bottom: 0;
+}
     .footer {
       padding-top: 100px;
       padding-bottom: 100px;
@@ -1577,3 +1589,4 @@ max-width: 1158px;
     .footer-bas{
       gap:0;
   }
+}
